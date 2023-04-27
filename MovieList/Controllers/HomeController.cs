@@ -42,6 +42,12 @@ namespace MovieList.Controllers
 
             return View("/Views/Movie/About.cshtml");
         }
+        public IActionResult Animation()
+        {
+
+            return View("/Views/Movie/Animation.cshtml");
+        }
+
 
     }
 }

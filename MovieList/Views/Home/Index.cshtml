@@ -1,14 +1,16 @@
 ﻿@model List<Movie>
 @{
-    ViewBag.Title = "My Movies";
+    ViewBag.Title = "My favorite Movies";
 }
 
-<h2>My Movie List</h2>
-<a asp-controller="Movie" asp-action="Add">Add New Movie</a>
+<h2>My Favorites</h2>
+
 <a asp-controller="Home" asp-action="Action">Action</a>
 <a asp-controller="Home" asp-action="Comedy">Comedy</a>
 <a asp-controller="Home" asp-action="Superhero">Superhero</a>
 <a asp-controller="Home" asp-action="Animation">Animation</a>
+<a asp-controller="Home" asp-action="About">About</a>
+
 
 <table class="table table-bordered table-striped">
     <thead>
@@ -32,4 +34,6 @@
             </tr>
         }
     </tbody>
+    
 </table>
+<a asp-controller="Movie" asp-action="Add">Add New Movie</a>

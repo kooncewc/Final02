@@ -43,8 +43,8 @@ namespace MovieList.Models
             modelBuilder.Entity<Genre>().HasData(
                 new Genre { GenreId = "A", Name = "Action" },
                 new Genre { GenreId = "C", Name = "Comedy" },
-                new Genre { GenreId = "D", Name = "Drama" },
-                new Genre { GenreId = "H", Name = "Horror" },
+                new Genre { GenreId = "D", Name = "Animation" },
+                new Genre { GenreId = "H", Name = "SuperHero" },
                 new Genre { GenreId = "M", Name = "Musical" },
                 new Genre { GenreId = "R", Name = "RomCom" },
                 new Genre { GenreId = "S", Name = "SciFi" }
