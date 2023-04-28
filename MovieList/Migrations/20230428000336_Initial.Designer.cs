@@ -10,8 +10,8 @@ using MovieList.Models;
 namespace MovieList.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    [Migration("20230426055433_MovieContextSnapshot2")]
-    partial class MovieContextSnapshot2
+    [Migration("20230428000336_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,12 +47,12 @@ namespace MovieList.Migrations
                         new
                         {
                             GenreId = "D",
-                            Name = "Drama"
+                            Name = "Animation"
                         },
                         new
                         {
                             GenreId = "H",
-                            Name = "Horror"
+                            Name = "SuperHero"
                         },
                         new
                         {
@@ -105,25 +105,25 @@ namespace MovieList.Migrations
                         {
                             MovieId = 4,
                             GenreId = "D",
-                            Name = "Casablanca",
+                            Name = "Superman",
                             Rating = 5,
-                            Year = 1943
+                            Year = 2010
                         },
                         new
                         {
                             MovieId = 2,
                             GenreId = "A",
-                            Name = "Wonder Woman",
+                            Name = "Batman Begins",
                             Rating = 3,
-                            Year = 2017
+                            Year = 2020
                         },
                         new
                         {
                             MovieId = 3,
                             GenreId = "R",
-                            Name = "Moonstruck",
+                            Name = "Up",
                             Rating = 4,
-                            Year = 1988
+                            Year = 2015
                         });
                 });
 

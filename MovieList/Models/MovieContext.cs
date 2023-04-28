@@ -20,22 +20,22 @@ namespace MovieList.Models
             modelBuilder.Entity<Movie>().HasData(
                 new Movie {
                     MovieId = 4,
-                    Name = "Casablanca",
-                    Year = 1943,
+                    Name = "Superman",
+                    Year = 2010,
                     Rating = 5,
                     GenreId = "D"
                 },
                 new Movie {
                     MovieId = 2,
-                    Name = "Wonder Woman",
-                    Year = 2017,
+                    Name = "Batman Begins",
+                    Year = 2020,
                     Rating = 3,
                     GenreId = "A"
                 },
                 new Movie {
                     MovieId = 3,
-                    Name = "Moonstruck",
-                    Year = 1988,
+                    Name = "Up",
+                    Year = 2015,
                     Rating = 4,
                     GenreId = "R"
                 }
